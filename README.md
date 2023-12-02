@@ -66,7 +66,7 @@ Seeder database.
 Buka aplikasi.
 
 ```
-http://localhot/laravel-authentikasi-api
+http://localhot/laravel-authentikasi-api/public
 ```
 
 ## License
