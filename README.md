@@ -69,6 +69,10 @@ Buka aplikasi.
 http://localhost/laravel-authentikasi-api/public
 ```
 
+Inputkan email dan password login.
+Email: `admin@admin.com`
+Password: `password`
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
