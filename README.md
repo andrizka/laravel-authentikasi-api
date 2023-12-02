@@ -26,6 +26,12 @@ Unduh file.
 git clone https://github.com/andrizka/laravel-authentikasi-api.git
 ```
 
+Masuk ke direktori project kemudian install packet dengan perintah berikut.
+
+```bash
+composer install
+```
+
 Ubah file .env.example ke .env kemudian konfigurasi pengaturan database anda.
 
 ```
@@ -43,12 +49,6 @@ Generate key laravel
 
 ```bash
 php artisan key:generate
-```
-
-Install packet
-
-```bash
-composer install
 ```
 
 Migrate Database
