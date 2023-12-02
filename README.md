@@ -26,15 +26,35 @@ Unduh file.
 git clone https://github.com/andrizka/laravel-authentikasi-api.git
 ```
 
-Konfigurasi file .env sesuai pengaturan database anda.
+Ubah file .env.example ke .env kemudian konfigurasi pengaturan database anda.
 
 ```
+....
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=
 DB_USERNAME=
 DB_PASSWORD=
+....
+```
+
+Generate key laravel
+
+```bash
+php artisan key:generate
+```
+
+Install packet
+
+```bash
+composer install
+```
+
+Migrate Database
+
+```bash
+ php artisan migrate
 ```
 
 Seeder database.
